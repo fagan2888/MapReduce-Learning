@@ -1,12 +1,11 @@
 # MapReduce-Learning
-#Linear regression
+<h2>Linear regression</h2>
     Here we used the formulas
         Y = THETA.transpose() * X
-        where 
-        THETA = [ ( X.transpose() * X ).inverse() ]* [ X.transpose() * Y ]
-    X is the input matrix . Each row of X contains {x1,x2,...,xn}
-    xi s are set of parameters
-    Y is the Functional value matrix
+        where,  THETA = [ ( X.transpose() * X ).inverse() ]* [ X.transpose() * Y ],
+        X is the input matrix . Each row of X contains {x1,x2,...,xn},
+            xi s are set of parameters,
+        Y is the Functional value matrix,
 
 
     generate.py is used to create the experimental data
